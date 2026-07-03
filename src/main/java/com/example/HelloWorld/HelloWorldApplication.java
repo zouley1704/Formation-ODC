@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HelloWorldApplication implements CommandLineRunner{
 public static void direBonjour(){
-	system.out.println("Bonjour");
-} 
+	    System.out.println("Bonjour");
+	} 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
 
